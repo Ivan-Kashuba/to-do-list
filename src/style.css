@@ -1,0 +1,75 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  text-align: center;
+  margin: 0 auto;
+  background-image: url("./img/bg.png");
+}
+
+.Body {
+  background: url("./img/body.png") center repeat-y;
+  min-height: 100vh;
+  font-family: "Nanum Brush Script", "Pacifico", cursive;
+  font-weight: normal;
+}
+.addButton {
+  background: url(./img/1.PNG) center no-repeat;
+  background-size: cover;
+  height: 30px;
+  width: 30px;
+}
+.input {
+  width: 400px;
+  height: 30px;
+}
+form {
+  margin-top: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+h1 {
+  padding-top: 10px;
+}
+.removeBtn {
+  padding: 3px 5px;
+  float: right;
+  background-color: lightcoral;
+  color: white;
+  margin-right: 13%;
+}
+.removeBtn:hover {
+  background-color: red;
+  color: black;
+}
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.item-todo {
+  width: 800px;
+  margin: 0 auto;
+  text-align: left;
+  margin-top: 15px;
+  word-break: break-all;
+}
+
+.item-delete {
+  cursor: pointer;
+  float: right;
+  font-size: 22px;
+}
+
+.item-text {
+  font-size: 30px;
+  display: inline-block;
+  cursor: pointer;
+}
+.strike {
+  text-decoration: line-through;
+}
